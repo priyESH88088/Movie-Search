@@ -27,9 +27,9 @@ function displayData(data) {
   data.forEach((obj) => {
     const image = document.createElement("img");
     image.src = BASE_PATH + obj.poster_path;
+    image.classList.add("poster"); 
     fragment.append(image);
   });
   results.append(fragment);
+  console.log(data);
 }
-
-// Promise.all, Promise.allSettled
