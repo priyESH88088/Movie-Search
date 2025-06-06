@@ -1,6 +1,6 @@
 const form = document.querySelector("form");
 const input = document.querySelector("input");
-const API_KEY = "";
+const API_KEY = "e7a816fbfb7c1209ed3e3d343942c461";
 const BASE_PATH = "https://image.tmdb.org/t/p/original";
 const results = document.querySelector("#results");
 
